@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Pedro'
 description 'Moonshine Script for QB-Core + ox_target'
-version '1.0.0'
+version '1.1.0'
 
 files {
     'stream/*.ydr',
@@ -35,3 +35,4 @@ dependencies {
     'ox_lib',
     'object_gizmo'
 }
+
