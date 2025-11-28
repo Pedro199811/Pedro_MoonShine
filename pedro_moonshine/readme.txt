@@ -1,5 +1,3 @@
-
-
 🍶 Pedro Moonshine System
 
 A custom moonshine production system for FiveM (QB-Core + Ox)
@@ -344,20 +342,10 @@ In ox_inventory/data/items.lua, add:
 },
 
 
-Then in console:
-
-ox_inventory:reloadItems
-
-5️⃣ Final test
-
-Restart the resource:
-
-restart pedro_moonshine
-
-
-Give yourself a still:
-
-/giveitem [yourid] moonshine_still 1
+ moonshine = {            emote = "drink",      canRun = false,   time = math.random(6000, 8000),  stress = -10,  heal = 0,  armor = 0,  type = "alcohol",  stats = { thirst = 25, }},
+    applepie_moonshine = {   emote = "drink",      canRun = false,   time = math.random(6000, 8000),  stress = -12,  heal = 0,  armor = 0,  type = "alcohol",  stats = { thirst = 30, }},
+    honey_moonshine = {       emote = "drink",      canRun = false,   time = math.random(6000, 8000),  stress = -15,  heal = 5,  armor = 0,  type = "alcohol",  stats = { thirst = 30, }},
+    berry_moonshine = {      emote = "drink",      canRun = false,   time = math.random(6000, 8000),  stress = -8,   heal = 0,  armor = 0,  type = "alcohol",  stats = { thirst = 20, }},
 
 
 Open your inventory and use the Moonshine Still
